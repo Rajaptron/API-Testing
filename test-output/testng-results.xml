@@ -1,21 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22286" started-at="2019-02-04T10:21:36Z" finished-at="2019-02-04T10:21:59Z">
+  <suite name="Default suite" duration-ms="113758" started-at="2019-04-29T11:18:04Z" finished-at="2019-04-29T11:19:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22286" started-at="2019-02-04T10:21:36Z" finished-at="2019-02-04T10:21:59Z">
+    <test name="Default test" duration-ms="113758" started-at="2019-04-29T11:18:04Z" finished-at="2019-04-29T11:19:58Z">
       <class name="Com.np.qa.Testcases.HomepageTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@42dafa95]" name="Setup" is-config="true" duration-ms="21999" started-at="2019-02-04T10:21:37Z" finished-at="2019-02-04T10:21:59Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Setup" is-config="true" duration-ms="9895" started-at="2019-04-29T11:18:04Z" finished-at="2019-04-29T11:18:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="HomepageTitle()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@42dafa95]" name="HomepageTitle" duration-ms="14" started-at="2019-02-04T10:21:59Z" finished-at="2019-02-04T10:21:59Z">
+        <test-method status="PASS" signature="HomepageTitle()[pri:1, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="HomepageTitle" duration-ms="36" started-at="2019-04-29T11:18:14Z" finished-at="2019-04-29T11:18:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomepageTitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@42dafa95]" name="teardown" is-config="true" duration-ms="243" started-at="2019-02-04T10:21:59Z" finished-at="2019-02-04T10:21:59Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="teardown" is-config="true" duration-ms="2118" started-at="2019-04-29T11:18:14Z" finished-at="2019-04-29T11:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Setup" is-config="true" duration-ms="8439" started-at="2019-04-29T11:18:16Z" finished-at="2019-04-29T11:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Category1tiletitle()[pri:2, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Category1tiletitle" duration-ms="3320" started-at="2019-04-29T11:18:25Z" finished-at="2019-04-29T11:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Category1tiletitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="teardown" is-config="true" duration-ms="2192" started-at="2019-04-29T11:18:28Z" finished-at="2019-04-29T11:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Setup" is-config="true" duration-ms="9575" started-at="2019-04-29T11:18:30Z" finished-at="2019-04-29T11:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Category2tiletitle()[pri:3, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Category2tiletitle" duration-ms="4110" started-at="2019-04-29T11:18:40Z" finished-at="2019-04-29T11:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Category2tiletitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="teardown" is-config="true" duration-ms="387" started-at="2019-04-29T11:18:44Z" finished-at="2019-04-29T11:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Setup" is-config="true" duration-ms="7836" started-at="2019-04-29T11:18:44Z" finished-at="2019-04-29T11:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Category3tiletitle()[pri:4, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Category3tiletitle" duration-ms="5028" started-at="2019-04-29T11:18:52Z" finished-at="2019-04-29T11:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Category3tiletitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="teardown" is-config="true" duration-ms="2171" started-at="2019-04-29T11:18:57Z" finished-at="2019-04-29T11:18:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Setup" is-config="true" duration-ms="8416" started-at="2019-04-29T11:18:59Z" finished-at="2019-04-29T11:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Category4tiletitle()[pri:5, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Category4tiletitle" duration-ms="3368" started-at="2019-04-29T11:19:08Z" finished-at="2019-04-29T11:19:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Category4tiletitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="teardown" is-config="true" duration-ms="280" started-at="2019-04-29T11:19:11Z" finished-at="2019-04-29T11:19:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Setup" is-config="true" duration-ms="8711" started-at="2019-04-29T11:19:11Z" finished-at="2019-04-29T11:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Category5tiletitle()[pri:6, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Category5tiletitle" duration-ms="1006" started-at="2019-04-29T11:19:20Z" finished-at="2019-04-29T11:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Category5tiletitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="teardown" is-config="true" duration-ms="2201" started-at="2019-04-29T11:19:21Z" finished-at="2019-04-29T11:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Setup" is-config="true" duration-ms="8595" started-at="2019-04-29T11:19:23Z" finished-at="2019-04-29T11:19:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Category6tiletitle()[pri:7, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Category6tiletitle" duration-ms="988" started-at="2019-04-29T11:19:32Z" finished-at="2019-04-29T11:19:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Category6tiletitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="teardown" is-config="true" duration-ms="2215" started-at="2019-04-29T11:19:33Z" finished-at="2019-04-29T11:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Setup" is-config="true" duration-ms="8725" started-at="2019-04-29T11:19:35Z" finished-at="2019-04-29T11:19:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Category7tiletitle()[pri:8, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Category7tiletitle" duration-ms="998" started-at="2019-04-29T11:19:44Z" finished-at="2019-04-29T11:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Category7tiletitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="teardown" is-config="true" duration-ms="258" started-at="2019-04-29T11:19:45Z" finished-at="2019-04-29T11:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Setup" is-config="true" duration-ms="8451" started-at="2019-04-29T11:19:45Z" finished-at="2019-04-29T11:19:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Category8tiletitle()[pri:8, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="Category8tiletitle" duration-ms="4136" started-at="2019-04-29T11:19:53Z" finished-at="2019-04-29T11:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Category8tiletitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.np.qa.Testcases.HomepageTest@2f686d1f]" name="teardown" is-config="true" duration-ms="259" started-at="2019-04-29T11:19:57Z" finished-at="2019-04-29T11:19:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

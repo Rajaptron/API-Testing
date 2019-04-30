@@ -24,26 +24,26 @@ public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
 
-	// public static Logger log = Logger.getLogger(TestBase.class); //Log 4j
-	// Connector
+	// public static Logger log = Logger.getLogger(TestBase.class); //Log 4j Connector
 
 	public TestBase() throws IOException {
 
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream(
-					System.getProperty("user.dir") + "\\src\\main\\java\\Com\\np\\qa\\Config\\config.properties");
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Com\\np\\qa\\Config\\config.properties");
 			prop.load(ip);
-		} catch (FileNotFoundException e) {
+		    } 
+		catch (FileNotFoundException e) {
 			e.printStackTrace();
-		} catch (IOException e) {
+		} 
+		catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
 
 	public static void initialization() {
-		// log.info("****************************** Starting test cases execution
-		// *****************************************");
+		// log.info("****************************** Starting test cases execution*****************************************");
+		
 		String browsername = prop.getProperty("browser");
 
 		// *************Without headless*************
